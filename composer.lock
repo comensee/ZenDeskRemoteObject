@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "34f7c600ffcb72c9670cfe5bc07d4220",
+    "hash": "5b6db743c72038356a2cb2ac5b6fcd59",
     "packages": [
         {
             "name": "fourmation/rest-remote-object",
@@ -124,16 +124,16 @@
         },
         {
             "name": "zendframework/zendframework",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "5d22cee82f6f7f9218f47f22a145f3e95c39cacf"
+                "reference": "055eac4314425c291f3ef0e104a6196a8fc24cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/5d22cee82f6f7f9218f47f22a145f3e95c39cacf",
-                "reference": "5d22cee82f6f7f9218f47f22a145f3e95c39cacf",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/055eac4314425c291f3ef0e104a6196a8fc24cd5",
+                "reference": "055eac4314425c291f3ef0e104a6196a8fc24cd5",
                 "shasum": ""
             },
             "require": {
@@ -219,8 +219,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev",
-                    "dev-develop": "2.3-dev"
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
                 }
             },
             "autoload": {
@@ -238,7 +238,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2014-03-12 16:51:16"
+            "time": "2014-04-15 14:47:18"
         },
         {
             "name": "zendframework/zendxml",
