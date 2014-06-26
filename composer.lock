@@ -3,35 +3,36 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5b6db743c72038356a2cb2ac5b6fcd59",
+    "hash": "4cf3196e6d3566af258ebbc42974e50f",
     "packages": [
         {
             "name": "fourmation/rest-remote-object",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fourmation/RestRemoteObject.git",
-                "reference": "10b39aa6bd44cf35fce13b397dd9827fdd2e645b"
+                "reference": "8fca4c9bbe1ea6c2eb075230abb8b608349310ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fourmation/RestRemoteObject/zipball/10b39aa6bd44cf35fce13b397dd9827fdd2e645b",
-                "reference": "10b39aa6bd44cf35fce13b397dd9827fdd2e645b",
+                "url": "https://api.github.com/repos/fourmation/RestRemoteObject/zipball/8fca4c9bbe1ea6c2eb075230abb8b608349310ac",
+                "reference": "8fca4c9bbe1ea6c2eb075230abb8b608349310ac",
                 "shasum": ""
             },
             "require": {
                 "ocramius/proxy-manager": "0.5.*",
-                "zendframework/zend-crypt": "2.3.*",
-                "zendframework/zend-http": "2.3.*",
-                "zendframework/zend-server": "2.3.*"
+                "zendframework/zend-crypt": ">=2.2.0",
+                "zendframework/zend-filter": ">=2.2.0",
+                "zendframework/zend-http": ">=2.2.0",
+                "zendframework/zend-server": ">=2.2.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "0.4.*@dev",
                 "phpunit/phpunit": "3.7.*",
                 "satooshi/php-coveralls": "~0.6",
-                "zendframework/zend-config": "2.3.*",
-                "zendframework/zend-modulemanager": "2.3.*",
-                "zendframework/zend-test": "2.3.*"
+                "zendframework/zend-config": ">=2.2.0",
+                "zendframework/zend-modulemanager": ">=2.2.0",
+                "zendframework/zend-test": ">=2.2.0"
             },
             "type": "library",
             "extra": {
@@ -56,7 +57,7 @@
                 }
             ],
             "description": "This library provide a REST adapter for the Remote Object pattern implemented by the ProxyManager project.",
-            "time": "2014-03-12 23:02:03"
+            "time": "2014-06-26 11:21:20"
         },
         {
             "name": "ocramius/proxy-manager",
