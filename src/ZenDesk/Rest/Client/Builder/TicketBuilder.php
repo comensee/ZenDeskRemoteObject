@@ -47,6 +47,11 @@ class TicketBuilder extends AbstractBuilder
             $data['ticket']['submitter_id'] = $ticket->getRequesterId();
         }
 
+        $customFields = $ticket->getCustomFields();
+        if ($customFields) {
+            $data['ticket']['custom_fields'] = $customFields;
+        }
+
         $context
             ->getResourceBinder()
             ->setParams(json_encode($data));
