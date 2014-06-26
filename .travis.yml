@@ -10,6 +10,7 @@ php:
 before_script:
   - composer self-update
   - composer install
+  - cp config/local.config.php.dist config/local.sandbox.config.php
 
 script:
   - cd tests/
