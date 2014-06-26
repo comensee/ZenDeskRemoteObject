@@ -107,6 +107,8 @@ class UserTest extends AbstractTestCase
 
     public function testCanUpdateEmail()
     {
+        $this->markTestSkipped('Waiting for zendesk about primary email');
+
         $user = new User();
         /** @var \ZenDesk\Service\UserService $service */
         $service = $this->getSM()->get('ZenDesk\Service\UserService');
@@ -127,6 +129,6 @@ class UserTest extends AbstractTestCase
         $user->save();
 
         $user = $service->get($user->getId());
-        $this->assertEquals($user->getEmail(), $email);
+        $this->assertEquals($email, $user->getEmail());
     }
 }

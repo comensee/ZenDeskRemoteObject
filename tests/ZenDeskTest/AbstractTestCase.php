@@ -23,7 +23,7 @@ abstract class AbstractTestCase extends PHPUnit_Framework_TestCase
         $config = include __DIR__ . '/../../config/service.config.php';
         $config = array_merge($config, array(
             'services' => array(
-                'Config' => include __DIR__ . '/../../config/local.config.php',
+                'Config' => include __DIR__ . '/../../config/local.sandbox.config.php',
             ),
         ));
 

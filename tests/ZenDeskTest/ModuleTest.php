@@ -17,7 +17,7 @@ class ModuleTest extends PHPUnit_Framework_TestCase
                 ),
                 'module_listener_options' => array(
                     'config_static_paths' => array(
-                        __DIR__ . '/../../config/local.config.php',
+                        __DIR__ . '/../../config/local.sandbox.config.php',
                     )
                 ),
                 'service_manager' => array(

@@ -24,7 +24,7 @@ class UserBuilder extends AbstractBuilder
                 'role' => $user->getRole(),
                 'verified' => $user->getVerified(),
                 'email' => $user->getEmail(),
-                'primary' => $user->isEmailMarkedAsPrimary(),
+                //'primary' => $user->isEmailMarkedAsPrimary(), // waiting for zendesk response
                 'phone' => $user->getPhone(),
             ),
         );
