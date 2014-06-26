@@ -14,6 +14,8 @@ This project is based on [RestRemoteObject](https://github.com/foumration/RestRe
 php composer.phar require "blanchonvincent/zendesk-remote-object:0.6.*"
 ```
 
+You need PHP 5.4 or higher.
+
 ## Architecture
 
 This project use Zend\ServiceManager to create entities or services. Each new entities or service calls must use the ServiceManager.
