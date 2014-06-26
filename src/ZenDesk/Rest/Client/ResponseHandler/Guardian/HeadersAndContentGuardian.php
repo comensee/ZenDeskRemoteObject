@@ -67,6 +67,10 @@ class HeadersAndContentGuardian implements GuardianInterface
                 $message = implode('. ', $message);
             }
 
+            if (!$message) {
+                $message = $content['error'];
+            }
+
             throw new $exceptionClass(sprintf('API Error "%s"', $message));
         }
     }

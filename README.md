@@ -1,17 +1,17 @@
 # ZenDesk Remote
 
 This library provide a REST client to ZenDesk remote call.
-This project is based on [RestRemoteObject](https://github.com/fourmation/RestRemoteObject) which allow to control a REST API with objects.
+This project is based on [RestRemoteObject](https://github.com/foumration/RestRemoteObject) which allow to control a REST API with objects.
 
-[![Build Status](https://api.travis-ci.org/fourmation/ZenDeskRemoteObject.png?branch=master)](https://travis-ci.org/fourmation/ZenDeskRemoteObject)
-[![Coverage Status](https://coveralls.io/repos/fourmation/ZenDeskRemoteObject/badge.png?branch=master)](https://coveralls.io/r/fourmation/ZenDeskRemoteObject)
-[![Latest Stable Version](https://poser.pugx.org/fourmation/zendesk-remote-object/v/stable.png)](https://packagist.org/packages/fourmation/zendesk-remote-object)
-[![Latest Unstable Version](https://poser.pugx.org/fourmation/zendesk-remote-object/v/unstable.png)](https://packagist.org/packages/fourmation/zendesk-remote-object)
+[![Build Status](https://api.travis-ci.org/blanchonvincent/ZenDeskRemoteObject.png?branch=master)](https://travis-ci.org/blanchonvincent/ZenDeskRemoteObject)
+[![Coverage Status](https://coveralls.io/repos/blanchonvincent/ZenDeskRemoteObject/badge.png?branch=master)](https://coveralls.io/r/blanchonvincent/ZenDeskRemoteObject)
+[![Latest Stable Version](https://poser.pugx.org/blanchonvincent/zendesk-remote-object/v/stable.png)](https://packagist.org/packages/blanchonvincent/zendesk-remote-object)
+[![Latest Unstable Version](https://poser.pugx.org/blanchonvincent/zendesk-remote-object/v/unstable.png)](https://packagist.org/packages/blanchonvincent/zendesk-remote-object)
 
 ## Installation
 
 ```sh
-php composer.phar require "fourmation/zendesk-remote-object:0.6.*"
+php composer.phar require "blanchonvincent/zendesk-remote-object:0.6.*"
 ```
 
 ## Architecture
