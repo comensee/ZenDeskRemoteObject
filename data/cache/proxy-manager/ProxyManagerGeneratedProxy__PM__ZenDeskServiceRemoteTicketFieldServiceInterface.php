@@ -1,15 +1,15 @@
 <?php
 
-namespace ProxyManagerGeneratedProxy\__PM__\ZenDesk\Service\Remote\TicketFieldServiceInterface;
+namespace ProxyManagerGeneratedProxy\__PM__\ZenDesk\Service\Remote;
 
-class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iamVjdEZhY3RvcnkiO30  implements \ProxyManager\Proxy\RemoteObjectInterface, \ZenDesk\Service\Remote\TicketFieldServiceInterface
+class TicketFieldServiceInterface implements \ProxyManager\Proxy\RemoteObjectInterface, \ZenDesk\Service\Remote\TicketFieldServiceInterface
 {
 
     /**
      * @var \ProxyManager\Factory\RemoteObject\AdapterInterface Remote web service
      * adapter
      */
-    private $adapter53abdc993bbb1045552178 = null;
+    private $adapter543a630c4edbf693538726 = null;
 
     /**
      * @rest\http POST
@@ -19,7 +19,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function persist(\ZenDesk\Entity\TicketField $ticketField)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'persist', array($ticketField));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'persist', array($ticketField));
 
         return $return;
     }
@@ -32,7 +32,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function save(\ZenDesk\Entity\TicketField $ticketField)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'save', array($ticketField));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'save', array($ticketField));
 
         return $return;
     }
@@ -44,7 +44,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function delete(\ZenDesk\Entity\TicketField $ticketField)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'delete', array($ticketField));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'delete', array($ticketField));
 
         return $return;
     }
@@ -57,7 +57,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function get($id)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'get', array($id));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'get', array($id));
 
         return $return;
     }
@@ -69,7 +69,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function getAll()
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'getAll', array());
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', 'getAll', array());
 
         return $return;
     }
@@ -78,9 +78,9 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      * @override constructor for remote object control\n\n@param
      * \ProxyManager\Factory\RemoteObject\AdapterInterface \$adapter
      */
-    public function __construct(\ProxyManager\Factory\RemoteObject\AdapterInterface $adapter53abdc993bbb1045552178)
+    public function __construct(\ProxyManager\Factory\RemoteObject\AdapterInterface $adapter543a630c4edbf693538726)
     {
-        $this->adapter53abdc993bbb1045552178 = $adapter53abdc993bbb1045552178;
+        $this->adapter543a630c4edbf693538726 = $adapter543a630c4edbf693538726;
     }
 
     /**
@@ -88,7 +88,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function & __get($name)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__get', array($name));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__get', array($name));
 
         return $return;
     }
@@ -98,7 +98,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __set($name, $value)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__set', array($name, $value));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__set', array($name, $value));
 
         return $return;
     }
@@ -108,7 +108,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __isset($name)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__isset', array($name));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__isset', array($name));
 
         return $return;
     }
@@ -118,7 +118,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __unset($name)
     {
-        $return = $this->adapter53abdc993bbb1045552178->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__unset', array($name));
+        $return = $this->adapter543a630c4edbf693538726->call('ZenDesk\\Service\\Remote\\TicketFieldServiceInterface', '__unset', array($name));
 
         return $return;
     }

@@ -11,6 +11,8 @@ use RestRemoteObject\Adapter\Rest as RestAdapter;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
+use ZenDesk\ProxyManager\Inflector\ClassNameInflector;
+
 class RemoteFactory implements FactoryInterface
 {
     /**
@@ -25,6 +27,7 @@ class RemoteFactory implements FactoryInterface
 
         $configuration = new Configuration();
         $configuration->setProxiesTargetDir(__DIR__ . '/../../../../data/cache/proxy-manager/');
+        $configuration->setClassNameInflector(new ClassNameInflector($configuration->getProxiesNamespace()));
         spl_autoload_register($configuration->getProxyAutoloader());
 
         $factory = new RemoteObjectFactory(

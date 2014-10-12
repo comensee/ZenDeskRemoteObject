@@ -1,15 +1,15 @@
 <?php
 
-namespace ProxyManagerGeneratedProxy\__PM__\ZenDesk\Service\Remote\ViewServiceInterface;
+namespace ProxyManagerGeneratedProxy\__PM__\ZenDesk\Service\Remote;
 
-class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iamVjdEZhY3RvcnkiO30  implements \ProxyManager\Proxy\RemoteObjectInterface, \ZenDesk\Service\Remote\ViewServiceInterface
+class ViewServiceInterface implements \ProxyManager\Proxy\RemoteObjectInterface, \ZenDesk\Service\Remote\ViewServiceInterface
 {
 
     /**
      * @var \ProxyManager\Factory\RemoteObject\AdapterInterface Remote web service
      * adapter
      */
-    private $adapter53abddee10e79815492531 = null;
+    private $adapter543a631370ad6745547803 = null;
 
     /**
      * @rest\http POST
@@ -19,7 +19,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function persist(\ZenDesk\Entity\View $view)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'persist', array($view));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'persist', array($view));
 
         return $return;
     }
@@ -32,7 +32,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function save(\ZenDesk\Entity\View $view)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'save', array($view));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'save', array($view));
 
         return $return;
     }
@@ -44,7 +44,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function delete(\ZenDesk\Entity\View $view)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'delete', array($view));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'delete', array($view));
 
         return $return;
     }
@@ -57,7 +57,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function getTickets(\ZenDesk\Entity\View $view)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getTickets', array($view));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getTickets', array($view));
 
         return $return;
     }
@@ -70,7 +70,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function get($id)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'get', array($id));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'get', array($id));
 
         return $return;
     }
@@ -82,7 +82,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function getAll()
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getAll', array());
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getAll', array());
 
         return $return;
     }
@@ -94,7 +94,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function getAllActive()
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getAllActive', array());
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', 'getAllActive', array());
 
         return $return;
     }
@@ -103,9 +103,9 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      * @override constructor for remote object control\n\n@param
      * \ProxyManager\Factory\RemoteObject\AdapterInterface \$adapter
      */
-    public function __construct(\ProxyManager\Factory\RemoteObject\AdapterInterface $adapter53abddee10e79815492531)
+    public function __construct(\ProxyManager\Factory\RemoteObject\AdapterInterface $adapter543a631370ad6745547803)
     {
-        $this->adapter53abddee10e79815492531 = $adapter53abddee10e79815492531;
+        $this->adapter543a631370ad6745547803 = $adapter543a631370ad6745547803;
     }
 
     /**
@@ -113,7 +113,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function & __get($name)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__get', array($name));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__get', array($name));
 
         return $return;
     }
@@ -123,7 +123,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __set($name, $value)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__set', array($name, $value));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__set', array($name, $value));
 
         return $return;
     }
@@ -133,7 +133,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __isset($name)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__isset', array($name));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__isset', array($name));
 
         return $return;
     }
@@ -143,7 +143,7 @@ class YToxOntzOjc6ImZhY3RvcnkiO3M6NDA6IlByb3h5TWFuYWdlclxGYWN0b3J5XFJlbW90ZU9iam
      */
     public function __unset($name)
     {
-        $return = $this->adapter53abddee10e79815492531->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__unset', array($name));
+        $return = $this->adapter543a631370ad6745547803->call('ZenDesk\\Service\\Remote\\ViewServiceInterface', '__unset', array($name));
 
         return $return;
     }
